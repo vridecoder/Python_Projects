@@ -1,4 +1,5 @@
-from array import array
+from arch import Array
 
-array = Array[1,2,3,4]
-array.sum()
+arr=[1,2,3,4,5]
+array = Array(arr,1)
+array.subArray()
