@@ -5,8 +5,7 @@ if __name__ == "__main__":
     n = len(arr)
 
     bio=Bio(arr)
-    for i in range(1,n):
-        if bio.checkbiotonic() == 1:
-            print("Yes")
-        else:
-            print("No")
+    if bio.checkbiotonic() == True:
+        print("Yes")
+    else:
+        print("No")
